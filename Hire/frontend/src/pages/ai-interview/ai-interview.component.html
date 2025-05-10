@@ -1,0 +1,138 @@
+<div class="interview-container">
+    <div class="interview-header">
+        <div class="question-number">1</div>
+        <div class="header-text">
+            <h2>AI Interview Session</h2>
+            <p>{{ getStatusMessage() }}</p>
+        </div>
+    </div>
+    
+    <!-- Start Interview Button - Show when in idle state -->
+    <div class="start-interview-container" *ngIf="callStatus === 'idle'">
+        <button class="start-interview-button" (click)="startInterview()">Start Interview</button>
+    </div>
+    
+    <!-- Status Section -->
+    <div class="status-container" *ngIf="isLoading">
+        <div class="status-message">
+            {{ getStatusMessage() }}
+        </div>
+        <div class="loading-spinner"></div>
+    </div>
+    
+    <!-- Error Message -->
+    <div class="error-message" *ngIf="errorMessage">
+        <p>{{ errorMessage }}</p>
+    </div>
+    
+    <!-- Results Container - Only show when call is completed -->
+    <div class="results-container" *ngIf="callStatus === 'completed'">
+        <!-- Audio Section -->
+        <div class="audio-section" *ngIf="audioUrl">
+            <h3>Interview Recording</h3>
+            <div class="audio-player-container">
+                <audio controls class="audio-player" [src]="audioUrl" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                
+            </div>
+        </div>
+        
+        <!-- Chat Section -->
+        <div class="chat-section" *ngIf="!isLoading && !errorMessage">
+            <h3>Interview Transcript</h3>
+            <div class="chat-container">
+                <div class="chat-messages">
+                    <div class="message" *ngFor="let message of chatMessages" [ngClass]="{'ai-message': message.speaker === 'AI_HR', 'candidate-message': message.speaker === 'Candidate', 'transcript-message': message.speaker === 'Transcript'}">
+                        <div class="message-header">
+                            <span class="speaker">{{ message.speaker }}</span>
+                            <span class="timestamp" *ngIf="message.timestamp">{{ message.timestamp | date:'shortTime' }}</span>
+                        </div>
+                        <div class="message-content">
+                            {{ message.text }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="finaleval-section">
+            <h3>Final Evaluation</h3>
+            <div class="evaluation-container">
+                <!-- Analysis Summary -->
+                <div class="analysis-summary">
+                    
+                    <!-- Strengths -->
+                    <div>
+                        <h4 class="strengths">Strengths</h4>
+                        <ul>
+                            <li>Strong technical background</li>
+                            <li>Excellent problem-solving skills</li>
+
+                        </ul>
+                    </div>
+                    <br>
+                    
+                    <!-- Areas for Improvement -->
+                    <div>
+                        <h4 class="strengths">Areas for Improvement</h4>
+                        <ul>
+                            <li>Limited enterprise experience</li>
+                            <li>Communication could be more concise</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Final Decision -->
+                <div class="final-decision">
+                    <div class="decision-header">
+                     
+                        <div class="accepted-badge">Accepted</div>
+                    </div>
+                    
+                    <!-- Skills Rating Section -->
+                    <div class="detailed-feedback">
+                        <h4>Skills Assessment</h4>
+                        <div class="feedback-grid">
+                            <div class="skill-name">Technical Skills</div>
+                            <div class="skill-rating">
+                                <div class="rating-stars">
+                                    <span class="filled">★</span>
+                                    <span class="filled">★</span>
+                                    <span class="filled">★</span>
+                                    <span class="filled">★</span>
+                                    <span>★</span>
+                                </div>
+                                <div class="rating-value">4/5</div>
+                            </div>
+                            
+                            <div class="skill-name">Cultural Fit</div>
+                            <div class="skill-rating">
+                                <div class="rating-stars">
+                                    <span class="filled">★</span>
+                                    <span class="filled">★</span>
+                                    <span class="filled">★</span>
+                                    <span class="filled">★</span>
+                                    <span class="filled">★</span>
+                                </div>
+                                <div class="rating-value">5/5</div>
+                            </div>
+                            
+                            <div class="skill-name">Experience Level</div>
+                            <div class="skill-rating">
+                                <div class="rating-stars">
+                                    <span class="filled">★</span>
+                                    <span class="filled">★</span>
+                                    <span class="filled">★</span>
+                                    <span class="filled">★</span>
+                                    <span>★</span>
+                                </div>
+                                <div class="rating-value">4/5</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
