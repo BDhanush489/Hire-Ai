@@ -1,0 +1,47 @@
+{
+  "summary": "Boggarapu Dhanush is a 3rd-year B.Tech Computer Science student with a specialization in IoT from SRM Institute of Science and Technology. He possesses strong frontend development skills, including proficiency in Angular, HTML, CSS, JavaScript, and TypeScript.  His experience includes internships at TP Vision and Codsoft, where he worked on various projects involving Angular development, PWA integration, and responsive web application design. He has also developed several personal projects showcasing his skills in different technologies.  His academic record is excellent (CGPA 8.56). \n\nConclusion: Accepted",
+  "name": "Boggarapu Dhanush",
+  "phone_no": "+91 9108244780",
+  "education": "B.Tech in Computer Science and Engineering (Specialization in Internet of Things), SRM Institute of Science and Technology",
+  "experience": [
+    "Apprentice Trainee at TP Vision (June 2024 - Oct 2024): Developed a language translation page in Angular, documented Angular migration, integrated a tour guide and PWA features, and implemented a lasso effect.",
+    "Frontend Development Intern at Codsoft (Oct 2023 - Nov 2023): Developed responsive web applications using HTML, CSS, and JavaScript."
+  ],
+  "skills": [
+    "Angular",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "Bootstrap",
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "MongoDB",
+    "Git",
+    "GitHub",
+    "C",
+    "C++",
+    "Python",
+    "NumPy",
+    "Pandas"
+  ],
+  "match_rate": "90%",
+  "rating": "4/5",
+  "decision": "Accepted",
+  "reasons": [
+    "Possesses strong proficiency in AngularJS, a key requirement for the role.",
+    "Demonstrates practical experience through internships and personal projects.",
+    "Shows a clear passion for frontend development through his projects and work experience.",
+    "Excellent academic record."
+  ],
+  "questions": [
+    "Describe your experience working with Angular, highlighting a challenging project and how you overcame it.",
+    "Explain your understanding of responsive web design and how you ensure your applications are accessible across different devices.",
+    "Walk me through your process for debugging complex frontend issues.",
+    "How do you stay up-to-date with the latest trends and technologies in frontend development?",
+    "Discuss your experience collaborating with other developers on a project.  What role did you play and how did you contribute to the team?",
+    "Describe a time you had to work with a legacy codebase. How did you approach the task?",
+    "What are your preferred testing methodologies for frontend code and why?"
+  ]
+}

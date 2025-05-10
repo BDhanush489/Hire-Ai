@@ -1,0 +1,143 @@
+[
+  "Hello. This is call six. This is call six. Hey, I'm Neil, an AI hi. I'm calling from the company you applied to regarding the front end developer position. Do you have time to talk now? Yes. Do you have a notice do you have a notice period? How long and how soon can you join?",
+  {
+    "timestamp": "2025-04-22T04:49:50.705Z",
+    "conversation": [
+      [
+        "AI_HR",
+        "Hey. Hello. I am Neil. An AI HR representative calling from Proton to Analytics four, led by mister Hardik Agarwal. It's the company with the yellow lighthouse logo. You recently applied for a front end developer role at the company. Just wanted to talk about that."
+      ],
+      [
+        "Candidate",
+        "Yeah. I know."
+      ],
+      [
+        "AI_HR",
+        "I'm an actual AI. It's a little weird, and I'm still experimental."
+      ],
+      [
+        "AI_HR",
+        "Do you have time to talk now?"
+      ],
+      [
+        "AI_HR",
+        "Hello? Are you there?"
+      ],
+      [
+        "AI_HR",
+        "Can you hear me?"
+      ]
+    ],
+    "summary": "Boggarapu Dhanush is a passionate Computer Science student specializing in IoT with a strong interest in full-stack development and functional programming.  His resume highlights experience in frontend and backend development internships, showcasing proficiency in Angular, JavaScript, HTML, CSS, Node.js, and Express.js. He has also completed several projects demonstrating his skills in AI, computer vision, and API integration.  His academic background includes a B.Tech in Computer Science and Engineering from SRM Institute of Science and Technology.\n\nConclusion: Accepted",
+    "evaluation": {
+      "strengths": [
+        "Technical Skills (based on resume)",
+        "Passion for Full-Stack Development"
+      ],
+      "areasForImprovement": [
+        "Communication Skills",
+        "Responsiveness"
+      ],
+      "detailedFeedback": {
+        "Technical Skills": "Resume indicates strong technical skills in frontend and backend development.  Further technical assessment needed.",
+        "Communication Skills": "Candidate's responses were brief and lacked engagement.  There was a significant delay in response, requiring the interviewer to repeat themselves multiple times. This needs improvement for effective collaboration.",
+        "Problem-Solving Ability": "Cannot be assessed based on this short conversation.",
+        "Team Collaboration": "Cannot be assessed based on this short conversation."
+      },
+      "finalDecision": {
+        "decision": "Accepted",
+        "ratings": {
+          "Technical Skills": 4,
+          "Communication Skills": 2,
+          "Problem-Solving": 3,
+          "Experience Level": 3
+        },
+        "confidenceScore": "Medium"
+      },
+      "additionalInsights": {
+        "sentimentAnalysis": {
+          "overallSentiment": "Neutral",
+          "emotionalTone": "Unengaged"
+        },
+        "recommendedResources": [
+          {
+            "topic": "Effective Communication in Interviews",
+            "resource": "https://www.example.com/communication-skills"
+          }
+        ],
+        "alternateRoleSuggestions": [
+          "Junior Full-Stack Developer"
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-08T17:55:33.496Z",
+    "conversation": [
+      [
+        "AI_HR",
+        "Hello? Hey, I'm calling from the company you applied to regarding the front end developer position. Do you have time to talk now?"
+      ],
+      [
+        "Candidate",
+        "Okay."
+      ],
+      [
+        "AI_HR",
+        "Great. Do you have a notice period? How long?"
+      ],
+      [
+        "Candidate",
+        "I can join immediately."
+      ],
+      [
+        "AI_HR",
+        "Okay. Great. What is your current compensation?"
+      ]
+    ],
+    "summary": "Boggarapu Dhanush is a 3rd-year B.Tech Computer Science student with a specialization in IoT from SRM Institute of Science and Technology. He possesses strong frontend development skills, including proficiency in Angular, HTML, CSS, JavaScript, and TypeScript.  His experience includes internships at TP Vision and Codsoft, where he worked on various projects involving Angular development, PWA integration, and responsive web application design. He has also developed several personal projects showcasing his skills in different technologies.  His academic record is excellent (CGPA 8.56). \n\nConclusion: Accepted",
+    "evaluation": {
+      "strengths": [
+        "Immediately available",
+        "Strong frontend skills (based on candidate summary)"
+      ],
+      "areasForImprovement": [
+        "Communication skills need improvement - brief and unenthusiastic responses",
+        "Lack of negotiation regarding compensation and notice period"
+      ],
+      "detailedFeedback": {
+        "Technical Skills": "Based on summary, strong.  Needs further assessment through technical interview.",
+        "Communication Skills": "2 - Brief, lacks enthusiasm and detail.  Needs improvement in articulating thoughts and engaging in conversation.",
+        "Problem-Solving Ability": "Not assessed in this conversation.",
+        "Team Collaboration": "Not assessed in this conversation."
+      },
+      "finalDecision": {
+        "decision": "Accepted",
+        "ratings": {
+          "Technical Skills": 4,
+          "Communication Skills": 2,
+          "Problem-Solving": 3,
+          "Experience Level": 3
+        },
+        "confidenceScore": "Medium"
+      },
+      "additionalInsights": {
+        "sentimentAnalysis": {
+          "overallSentiment": "Neutral",
+          "emotionalTone": "Unenthusiastic"
+        },
+        "recommendedResources": [
+          {
+            "topic": "Effective Communication in Interviews",
+            "resource": "https://www.example.com/communication-skills"
+          },
+          {
+            "topic": "Negotiating Salary",
+            "resource": "https://www.example.com/salary-negotiation"
+          }
+        ],
+        "alternateRoleSuggestions": []
+      }
+    }
+  }
+]
